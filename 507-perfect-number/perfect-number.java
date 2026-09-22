@@ -8,6 +8,10 @@ class Solution {
             }
         }
 
-        return sum == num;
+        if (sum == num) {
+            return true;
+        } else {
+            return false;
+        }
     }
 }
